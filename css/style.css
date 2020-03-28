@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/hero-bg.jpg);
+}
+
+.calc-bttn {
+    background-color: silver;
+    color: black;
+    width: 25px;
+    height: 60px;
+    border: 1px solid grey;
+    text-align: center;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.calc-bttn:hover{
+    background-color: coral;
+}
+
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 400px;
+}
+
+.column {
+    display: table-cell;
+}
+
+#calc-zero {
+    width: 51px;
+    border-radius: 0 0 0 7px;
+}
+
+#calc-clear {
+    width: 51px;
+}
+
+#calc-display-area {
+    height: 100px;
+    color: wheat;
+    text-align: right;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    border-top: 1px solid grey;
+    font-size: 48px;
+    background-color: #383838;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px;
+    border-radius: 7px 7px 0 0;
+}
+
+.calc-bttn-operator {
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+#header {
+    margin-top: 40px;
+    border: solid 0.5px rgba(175, 202, 201, 0.568) ;
+    width: 200px;
+    border-radius: 40px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 8px;
+    background-color: rgba(119, 179, 179, 0.753);
+    
+}
+
+h1 {
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(216, 31, 18, 0.822);
+    text-align: center;
+}
+
+#calc-equals {
+    border-radius: 0 0 7px 0;  
+}
+
+#calc-parent {
+    margin-left: calc(50% - 200px);
+    margin-top: 30px;
+}
